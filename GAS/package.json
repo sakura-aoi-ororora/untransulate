@@ -1,0 +1,11 @@
+{
+  "name": "gas",
+  "version": "1.0.0",
+  "description": "gas scripts",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.76",
+    "typescript": "^5.2.2"
+  }
+}
