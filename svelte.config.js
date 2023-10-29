@@ -1,7 +1,10 @@
 import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import { vitePreprocess } from '@sveltejs/kit/vite'
 
-const dev = process.argv.includes("dev")
+import { config as dotenv } from 'dotenv';
+dotenv()
+const dev = process.env.NODE_ENV
+console.log(`dev is ${dev}`)
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
